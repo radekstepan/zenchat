@@ -1,0 +1,6 @@
+ZenChat
+Fari MVC, PHP, Python, wxPython, AJAX
+
+November 2009
+
+A PHP server running a chat application with a custom AJAX library. Client was coded in wxPython. A project for a university course.

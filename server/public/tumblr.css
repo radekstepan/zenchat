@@ -1,0 +1,37 @@
+body { font:16px/1.5 "Georgia", "Times", serif; color:#333; background-color:#EFEEDF; }
+
+h1 { font-size:200%; color:#C00000; }
+    h1 a { text-decoration:none; }
+h2 { font-size:120%; color:#165ca3; }
+
+#content { width:500px; margin:0 auto; background-color:#FFF; padding:20px; }
+    #content a { color:#C00000; }
+        #content a:hover { color:#333; }
+    #content p { color:#004646; border-top:1px solid #E5E5E5; font-size:25px; line-height:1.2em; margin:0;
+        padding-top:10px; }
+    #content div.author { color:#333; font-size:15px; line-height:19px; margin-top:5px; padding-bottom:5px;
+             text-align:right; }
+    #freshMessages div.new { background:#FFD; }
+        #freshMessages div.new p { border-top:1px solid #FFD700; }
+
+form#inputForm { -moz-border-radius-bottomleft:10px; -moz-border-radius-bottomright:10px;
+            -moz-border-radius-topleft:10px; -moz-border-radius-topright:10px;
+            background:#EFEEDF none repeat scroll 0 0; font-size:14px; margin-bottom:5px; margin-top:25px;
+            padding:16px; }
+form input.text { -moz-border-radius-bottomleft:5px; -moz-border-radius-bottomright:5px;
+            -moz-border-radius-topleft:5px; -moz-border-radius-topright:5px;
+            background:#FFFFFF none repeat scroll 0 0; border:1px solid #CCCCCC;
+            font-family:Helvetica,Arial,Geneva,sans-serif; font-size:20px; line-height:normal; margin:0;
+            padding:2px 5px; vertical-align:middle; width:393px; }
+form input.button { -moz-border-radius-bottomleft:5px; -moz-border-radius-bottomright:5px;
+                    -moz-border-radius-topleft:5px; -moz-border-radius-topright:5px;
+                    background:#C00000 none repeat scroll 0 0; border:1px solid #C00000; color:#FFFFFF;
+                    cursor:pointer; font-family:Helvetica,Arial,Geneva,sans-serif; font-size:15px;
+                    line-height:normal; margin:0; padding:2px 5px; vertical-align:middle; }
+form input.loading { background:#C00000 url(ajax-loader.gif) no-repeat center; width:60px; }
+
+#top { font-size:16px; float:right; }
+
+div.flash, div.notify { color:#000; background:#FFD; border:1px solid #FFD700; margin:1em 0; padding:1em; }
+div.fail { background:#FFDDDF; border:1px solid #FF0011; margin:1em 0; padding:1em; }
+div.success { background:#E3FFDD; border:1px solid #00FF47; margin:1em 0; padding:1em; }
